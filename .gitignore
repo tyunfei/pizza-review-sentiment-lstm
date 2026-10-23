@@ -1,0 +1,19 @@
+# Local datasets and cache: deliberately excluded from public repository
+Pizza reviews.csv
+*translated*.csv
+*.csv
+*.xlsx
+# Environments and notebooks
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+.env.*
+# Generated models (manually curated historical model is checked in)
+*.keras
+checkpoints/
+# Desktop
+.DS_Store
+Thumbs.db
